@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="KorisnickiInterfejs.Site" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>VEB APLIKACIJA ZA PODRŠKU PRAĆENJA PROIZVODNJE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/style.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <div style="background-color:blue; color:white; padding:15px; font-size:30px; font-weight:bold; display:flex; width:100%;">
+            <div style="flex:1; text-align:left;">
+                VEB APLIKACIJA ZA PODRŠKU PRAĆENJA PROCESA PROIZVODNJE
+            </div>
+            <div style="text-align:right;">
+                <asp:Button ID="btnOdjava" runat="server" Text="Odjava" CssClass="btn btn-secondary mb-2" OnClick="btnOdjava_Click" />
+            </div>
+        </div>
+
+        <div style="background-color: white; padding: 10px;">
+            <asp:Menu ID="NavigacioniMeni" runat="server" CssClass="nav-menu" EnableViewState="false" Visible="false">
+                <Items>
+                    <asp:MenuItem Text="Unos Plana" NavigateUrl="~/PlanUnos.aspx" />
+                    <asp:MenuItem Text="Pregled Planova" NavigateUrl="~/PlanPregled.aspx" />
+                    <asp:MenuItem Text="Unos Realizacije Proizvodnje" NavigateUrl="~/RealizacijaUnos.aspx" />
+                    <asp:MenuItem Text="Pregled Realizovane Proizvodnje" NavigateUrl="~/RealizacijaPregled.aspx" />
+                </Items>
+            </asp:Menu>
+        </div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\KlasePodataka\bin\Debug\KlasePodataka.dll
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\KlasePodataka\bin\Debug\KlasePodataka.pdb
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\KlasePodataka\bin\Debug\DBUtils.dll
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\KlasePodataka\bin\Debug\System.Configuration.ConfigurationManager.dll
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\KlasePodataka\bin\Debug\System.Data.SqlClient.dll
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\KlasePodataka\bin\Debug\DBUtils.pdb
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\KlasePodataka\bin\Debug\System.Configuration.ConfigurationManager.xml
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\KlasePodataka\bin\Debug\System.Data.SqlClient.xml
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\KlasePodataka\obj\Debug\KlasePodataka.csproj.AssemblyReference.cache
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\KlasePodataka\obj\Debug\KlasePodataka.csproj.CoreCompileInputs.cache
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\KlasePodataka\obj\Debug\KlasePod.C2AE2122.Up2Date
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\KlasePodataka\obj\Debug\KlasePodataka.dll
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\KlasePodataka\obj\Debug\KlasePodataka.pdb

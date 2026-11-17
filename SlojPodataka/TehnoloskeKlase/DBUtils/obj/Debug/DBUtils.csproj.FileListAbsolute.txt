@@ -1,0 +1,11 @@
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\TehnoloskeKlase\DBUtils\bin\Debug\DBUtils.dll
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\TehnoloskeKlase\DBUtils\bin\Debug\DBUtils.pdb
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\TehnoloskeKlase\DBUtils\bin\Debug\System.Configuration.ConfigurationManager.dll
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\TehnoloskeKlase\DBUtils\bin\Debug\System.Data.SqlClient.dll
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\TehnoloskeKlase\DBUtils\bin\Debug\System.Configuration.ConfigurationManager.xml
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\TehnoloskeKlase\DBUtils\bin\Debug\System.Data.SqlClient.xml
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\TehnoloskeKlase\DBUtils\obj\Debug\DBUtils.csproj.AssemblyReference.cache
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\TehnoloskeKlase\DBUtils\obj\Debug\DBUtils.csproj.CoreCompileInputs.cache
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\TehnoloskeKlase\DBUtils\obj\Debug\DBUtils.csproj.Up2Date
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\TehnoloskeKlase\DBUtils\obj\Debug\DBUtils.dll
+G:\DIPLOMSKI\VebAplikacijaZaPodrskuPracenjaProcesaProizvodnje\SlojPodataka\TehnoloskeKlase\DBUtils\obj\Debug\DBUtils.pdb

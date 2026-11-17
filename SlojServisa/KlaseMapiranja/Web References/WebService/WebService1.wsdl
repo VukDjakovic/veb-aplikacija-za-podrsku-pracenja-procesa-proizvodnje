@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="DajSveStatusePlana">
+        <s:complexType />
+      </s:element>
+      <s:element name="DajSveStatusePlanaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DajSveStatusePlanaResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="DajOgranicenjaPoSektorima">
+        <s:complexType />
+      </s:element>
+      <s:element name="DajOgranicenjaPoSektorimaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DajOgranicenjaPoSektorimaResult" type="tns:ArrayOfSektorOgranicenjeDTO" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfSektorOgranicenjeDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SektorOgranicenjeDTO" nillable="true" type="tns:SektorOgranicenjeDTO" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SektorOgranicenjeDTO">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="NazivSektora" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="MaksimalnaDnevnaKolicina" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="DajSveStatusePlanaSoapIn">
+    <wsdl:part name="parameters" element="tns:DajSveStatusePlana" />
+  </wsdl:message>
+  <wsdl:message name="DajSveStatusePlanaSoapOut">
+    <wsdl:part name="parameters" element="tns:DajSveStatusePlanaResponse" />
+  </wsdl:message>
+  <wsdl:message name="DajOgranicenjaPoSektorimaSoapIn">
+    <wsdl:part name="parameters" element="tns:DajOgranicenjaPoSektorima" />
+  </wsdl:message>
+  <wsdl:message name="DajOgranicenjaPoSektorimaSoapOut">
+    <wsdl:part name="parameters" element="tns:DajOgranicenjaPoSektorimaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="DajSveStatusePlana">
+      <wsdl:input message="tns:DajSveStatusePlanaSoapIn" />
+      <wsdl:output message="tns:DajSveStatusePlanaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DajOgranicenjaPoSektorima">
+      <wsdl:input message="tns:DajOgranicenjaPoSektorimaSoapIn" />
+      <wsdl:output message="tns:DajOgranicenjaPoSektorimaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DajSveStatusePlana">
+      <soap:operation soapAction="http://tempuri.org/DajSveStatusePlana" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DajOgranicenjaPoSektorima">
+      <soap:operation soapAction="http://tempuri.org/DajOgranicenjaPoSektorima" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DajSveStatusePlana">
+      <soap12:operation soapAction="http://tempuri.org/DajSveStatusePlana" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DajOgranicenjaPoSektorima">
+      <soap12:operation soapAction="http://tempuri.org/DajOgranicenjaPoSektorima" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="https://localhost:44309/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="https://localhost:44309/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

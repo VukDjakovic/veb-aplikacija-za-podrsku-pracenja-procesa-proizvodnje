@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SektorOgranicenje>
+	<Sektor>
+		<NazivSektora>Izrada delova</NazivSektora>
+		<MaksimalnaDnevnaKolicina>250</MaksimalnaDnevnaKolicina>
+	</Sektor>
+	<Sektor>
+		<NazivSektora>Montaža</NazivSektora>
+		<MaksimalnaDnevnaKolicina>50</MaksimalnaDnevnaKolicina>
+	</Sektor>
+</SektorOgranicenje>

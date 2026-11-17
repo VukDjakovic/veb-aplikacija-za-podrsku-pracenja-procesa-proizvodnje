@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SpisakStatusaPlana>
+	<PlanProizvodnje>
+		<StatusPlana>U toku</StatusPlana>
+		<StatusPlana>Završen</StatusPlana>
+		<StatusPlana>Otkazan</StatusPlana>
+		<StatusPlana>Pauziran</StatusPlana>
+	</PlanProizvodnje>
+</SpisakStatusaPlana>

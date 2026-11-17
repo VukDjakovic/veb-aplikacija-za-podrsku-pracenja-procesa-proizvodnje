@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SlojServisa\\WebServis\\WebServis.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "PrezentacioniSloj\\KorisnickiInterfejs\\KorisnickiInterfejs.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
